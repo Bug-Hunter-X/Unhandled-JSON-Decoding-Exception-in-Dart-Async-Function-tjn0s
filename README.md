@@ -1,0 +1,3 @@
+# Unhandled JSON Decoding Exception in Dart Async Function
+
+This repository demonstrates a common error in Dart asynchronous programming involving JSON decoding. The `bug.dart` file shows the flawed code that only catches a generic `Exception` during the API call.  `bugSolution.dart` demonstrates a more robust solution using a `try-catch` block to specifically handle `FormatException` (from `jsonDecode`), providing a better user experience and app stability.
